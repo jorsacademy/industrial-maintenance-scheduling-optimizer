@@ -21,6 +21,9 @@ dev = [
   "ruff>=0.6",
 ]
 
+[tool.hatch.build.targets.wheel]
+packages = ["src/maintenance_optimizer"]
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 
